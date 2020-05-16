@@ -1,0 +1,12 @@
+Ejercicio 2:
+
+S→(L)|a
+L→L,S|S
+
+**Eliminar recursividad izquierda**
+α=,S
+β=S
+
+S→(L)|a
+L→SL'
+L'→,SL'|ε
