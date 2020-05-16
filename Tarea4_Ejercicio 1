@@ -1,0 +1,19 @@
+Ejercicio 1:
+
+S→S+T|T
+T→TF|F
+F→(S)|S*|a
+
+**Eliminar recursividad izquierda**
+***Recursividad de S***
+α=+T
+β=T
+***Recursividad de T***
+α=F
+β=F
+
+S→TS'
+S'→+TS'|ε
+T→FT'
+T'→FT'|ε
+F→(S)|S*|a
