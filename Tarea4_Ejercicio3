@@ -1,0 +1,12 @@
+Ejercicio 3:
+
+S→G
+G→PG|P
+P→id:R
+R→idR|ε
+
+
+G→PG'
+G'→G|ε
+P→id:R
+R→idR|ε
