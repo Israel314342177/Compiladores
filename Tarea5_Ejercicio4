@@ -1,0 +1,9 @@
+Ejercicio 4:
+
+S→E
+E→while E do E|id:=E|id
+
+S→S'
+S'→E
+E→while E do E'|id:=E'|id
+E'→E|Ɛ
